@@ -28,7 +28,7 @@ const Services = () => {
       className="services"
       variants={variants}
       initial="initial"
-      animate={"animate"}>
+      animate={inView && "animate"}>
       <motion.div className="textContainer" variants={variants}>
         <p>
           focus on helping your brand grow <br /> and move forward

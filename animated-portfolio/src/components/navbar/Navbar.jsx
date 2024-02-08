@@ -2,6 +2,7 @@ import "./Navbar.scss";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { GrResume } from "react-icons/gr";
 import Sidebar from "../sidebar/Sidebar";
 
 const Navbar = () => {
@@ -24,7 +25,7 @@ const Navbar = () => {
               <FaLinkedin />
             </a>
             <a href="#">
-              <FaGithub />
+              <GrResume />
             </a>
           </div>
         </div>
