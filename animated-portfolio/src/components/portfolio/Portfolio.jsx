@@ -1,37 +1,40 @@
 import { useRef } from "react";
+import mezban from "../images/mezban.jpg";
 import myntra from "../images/myntra.jpg";
+import hustbee from "../images/hustbee.jpg";
+
 import "./Portfolio.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
 const items = [
   {
     id: 1,
-    title: "Myntra Clone",
-    src: myntra,
+    title: "Mezban",
+    src: mezban,
     description:
-      "this image is very good and amazing to see and it have landscape scenery or many mountains and other things",
+      "A frontend restaurant website built with Bootstrap for responsive design and JavaScript for interactivity, recreating functionality like menus, ordering, and reservations. Focused on delivering engaging user flows utilizing modal dialogs, dynamic generation of content, and smooth scrolling while emphasizing clean, modular frontend architecture. Achieves rich visuals and interactions without a backend by leveraging client-side scripting and bootstrap's extensive library of CSS components",
   },
   {
     id: 2,
     title: "Myntra Clone",
     src: myntra,
     description:
-      "this image is very good and amazing to see and it have landscape scenery or many mountains and other things",
+      " frontend responsive e-commerce web application built using Vite, React, and Bootstrap that recreates core Myntra functionalities like product catalogue browsing, filtering, and cart management leveraging reusable components, state management hooks, and declarative rendering for a fast and optimal user experience. The focus is on modular frontend architecture, design and workflows",
   },
   {
     id: 3,
-    title: "Myntra Clone",
-    src: myntra,
+    title: "Hustbee",
+    src: hustbee,
     description:
-      "this image is very good and amazing to see and it have landscape scenery or many mountains and other things",
+      "A site for freelance services with responsive page layouts using HTML and CSS. Showcases creative web design with modular, reusable front-end code components for an optimized and adaptable UX",
   },
-  {
-    id: 4,
-    title: "Myntra Clone",
-    src: myntra,
-    description:
-      "this image is very good and amazing to see and it have landscape scenery or many mountains and other things",
-  },
+  // {
+  //   id: 4,
+  //   title: "Myntra Clone",
+  //   src: mezban,
+  //   description:
+  //     "this image is very good and amazing to see and it have landscape scenery or many mountains and other things",
+  // },
 ];
 const Single = ({ item }) => {
   const ref = useRef();
